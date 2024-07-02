@@ -79,7 +79,7 @@ fun Content() {
                 CenterAlignedTopAppBar(
                     modifier = Modifier,
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Gray
+                        containerColor = Color.LightGray
                     ),
                     title = {
                         Text(text = "Todo")
@@ -221,7 +221,7 @@ fun TaskView(task: Task) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .background(Color.LightGray),
+            .background(Color.Cyan),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Text(
